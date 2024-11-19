@@ -1,8 +1,8 @@
 const express = require('express');
 const router = express.Router();
-const Relation = require('./models/Relation');
-const User = require('./models/users');
-const Block = require('./models/block');
+const Relation = require('../models/Relation');
+const User = require('../models/users');
+const Block = require('../models/block');
 
 router.post('/add/relation', async (req, res) => {
     const { userId, friendId } = req.body;
