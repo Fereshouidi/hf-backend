@@ -1,4 +1,8 @@
+
 {
+  "name": "server",
+  "version": "1.0.0",
+  "main": "server.js",
   "dependencies": {
     "cloudinary": "^2.4.0",
     "cors": "^2.8.5",
@@ -9,7 +13,7 @@
     "nodemailer": "^6.9.15",
     "socket.io": "^4.7.5"
   },
-   "devDependencies": {},
+  "devDependencies": {},
   "scripts": {
     "start": "node server.js"
   },
