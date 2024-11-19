@@ -2,7 +2,7 @@ const express = require('express')
 const router = express.Router();
 const Invitation = require('../models/invitation');
 const User = require('../models/users');
-const Relation = require('./models/Relation');
+const Relation = require('../models/Relation');
 
 
 router.put('/accept/invitation', async (req, res) => {
