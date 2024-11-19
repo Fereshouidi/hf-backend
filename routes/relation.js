@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const Relation = require('../models/Relation');
+const Relation = require('../models/relation');
 const User = require('../models/users');
 const Block = require('../models/block');
 
