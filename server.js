@@ -59,7 +59,7 @@ io.on('connection', (socket) => {
 });
 
 // تشغيل الخادم
-server.listen(PORT, '0.0.0.0', () => {
+server.listen(PORT, () => {
     console.log(`Server is running on port ${PORT}`);
 });
 
@@ -119,7 +119,7 @@ server.listen(PORT, '0.0.0.0', () => {
 // app.use('/api', relation);
 
 
-// app.listen(PORT, '0.0.0.0', () => {
+// app.listen(PORT, () => {
 //     console.log(`Server is running on port ${PORT}`);
 //   });
 
